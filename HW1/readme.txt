@@ -1,11 +1,10 @@
-task1.1.py - Решение СЛАУ методом Гаусса
-task1.2.py - Решение СЛАУ методом Холецкого
-task1.3.py - Решение СЛАУ методом прогонки
+task1.1.py - Solving system of linear equation by Gauss method
+task1.2.py - Solving system of linear equation by Cholesky method
+task1.3.py - Solving system of linear equation by Tridiagonal matrix algorithm
 
 
-Запускать командой:
+Launch program by:
 
 python3 task1.1.py
 python3 task1.2.py
 python3 task1.3.py
-
