@@ -4,8 +4,8 @@ import scipy.linalg as sla
 import time 
 import matplotlib.pyplot as plt
 
-eps = 0.001
-size = 5 #size*100 - размер матрицы
+eps = 0.2
+size = 10 #size*100 - matrix size
 my_time = [0]*size
 np_time = [0]*size
 
@@ -36,39 +36,43 @@ def solve(n, A, f):
 	return xnew
 
 for count in range(1,size+1):
-	#Вводные данные: n, A, A_np, f, f_np
+	#Input data: n, A, f
 	n = count*100		
+	print('Make A')
 	A = np.random.rand(n,n)
+	f = np.random.rand(n)
 	
+	
+	#Create matrix with diagonally dominant type
+	print('Make A diagonally dominant type matrix')
 	s = np.sum(np.abs(A), axis = 1)
 	for i in range(n):
 		A[i][i] = A[i][i] + s[i]
 	
-	A_np = np.array(A)
-	f = np.random.rand(n)
-	f_np = np.array(f)
 
-	#Значение эпсилона и размера матрицы
+	#Epsilon and matrix size:
 	print('epsilon = ',eps)
 	print('n = ', n)
 
-	#Мой метод
+	#My method
+	print('Start solving by my method')
 	start = time.time()
 	x = solve(n, A, f)
 	my_time[count - 1] = time.time() - start
 	print('My time: ',my_time[count - 1])
 
-	#Метод numpy
+	#Numpy solution
+	print('Start solving by numpy method')
 	start = time.time()
-	x_np = np.linalg.solve(A_np, f_np)
+	x_np = np.linalg.solve(A, f)
 	np_time[count - 1] = time.time() - start
 	print('NP time: ',np_time[count - 1])
 	
-	#Одинаковы ли решения?
-	print('\n||x - x_np|| = ', max(np.absolute(x_np-x)) )
+	#Same solution?
+	print('\n||x - x_np|| = ', max(np.absolute(x_np - x)) )
 	print ('\n\n\n\n\n')
 
-#Вывод графика
+#Plotting
 plt.plot(my_time)
 plt.plot(np_time)
 plt.show()
