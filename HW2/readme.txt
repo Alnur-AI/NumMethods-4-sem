@@ -1,10 +1,9 @@
-task2.1.py - Решение СЛАУ методом Якоби
-task2.2.py - Решение СЛАУ методом Зейделя
+task2.1.py - Jacoby linear equation solution 
+task2.2.py - Zeidel linear equation solution
 
 
 
-Запускать командой:
+Launch by commands:
 
 python3 task2.1.py
 python3 task2.2.py
-
