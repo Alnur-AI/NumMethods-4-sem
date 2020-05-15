@@ -1,5 +1,5 @@
-Данная программа решает задачу уравнение переноса. 
+This program solves the problem of the Convection вЂ“ diffusion equation.
 
-ПОЖАЛУЙСТА, БУДЬТЕ ТЕРПЕЛИВЫ! НА СОЗДАНИЕ ГИФ ИЗОБРАЖЕНИЯ ТРЕБУЕТСЯ ОТ 30 СЕКУНД ДО МИНУТЫ!
+PLEASE, BE PATIENT! IMAGES ARE REQUIRED FROM 30 SECONDS TO MINUTES TO CREATE A GIF
 
-Запускать командой: python3 task4.1.py
+Run command: python3 task4.1.py
