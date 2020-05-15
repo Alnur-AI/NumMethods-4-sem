@@ -36,8 +36,7 @@ u = np . zeros (( m + 1 , n + 1))
 for k in range ( m ):
 	u [ k ] = vsolution (x , tau * k )
 
-#plt.plot(x, y[m-1,:])
-#plt.plot(x, u[m-1,:])
+
 
 def animate ( k ):
 	plt.clf ()
