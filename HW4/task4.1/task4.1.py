@@ -7,6 +7,7 @@ def u0(x):
 
 def solution(x,t):
 	return u0(x - C * t)
+
 C = 1.0
 T = 2.0
 L, R = -5.0, 5.0
@@ -32,14 +33,15 @@ for k in range (m):
 	for i in range(1, n + 1):
 		y [ k +1][ i ] = y [ k ][ i ] - d * ( y [ k ][ i ] - y [ k ][ i -1])
 
+
 vsolution = np.vectorize(solution, excluded = [ 't ' ])
 u = np . zeros (( m + 1 , n + 1))
 for k in range ( m ):
 	u [ k ] = vsolution (x , tau * k )
 
-#plt.plot(x, y[m-1,:])
-#plt.plot(x, u[m-1,:])
 
+
+# Save and show animation
 def animate ( k ):
 	plt.clf ()
 	plt.ylim (0 , 1.25)
