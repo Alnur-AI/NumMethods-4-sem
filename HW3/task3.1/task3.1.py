@@ -31,7 +31,7 @@ for i in range(n-1):
 	a[i] = (y[i + 1] - y[i]) / (x[i + 1] - x[i])
 	b[i] = y[i]
 
-# Find the values вЂ‹вЂ‹with a new set of arguments
+# Find the values (z; f) with a new set of arguments
 f = np.zeros(m)# My approaching
 
 for j in range(m):# For each new argument
