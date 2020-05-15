@@ -1,5 +1,5 @@
-Данная программа решает задачу уравнение теплопроводности. 
+This program solves the problem of the heat equation.
 
-ПОЖАЛУЙСТА, БУДЬТЕ ТЕРПЕЛИВЫ! НА СОЗДАНИЕ ГИФ ИЗОБРАЖЕНИЯ ТРЕБУЕТСЯ ОТ 30 СЕКУНД ДО МИНУТЫ!
+PLEASE, BE PATIENT! IMAGES ARE REQUIRED FROM 30 SECONDS TO MINUTES TO CREATE A GIF
 
-Запускать командой: python3 task4.2.py
+Run by command: python3 task4.2.py
