@@ -73,7 +73,6 @@ def Spline(t, m, x, A, B, C, D):
 			if (x[i] < t[j] and t[j] <= x[i+1]):# If the argument lies in the region [x (i); x (i + 1))
 				f[j] = A[i]*(t[j]-x[i])**3 + B[i]*(t[j]-x[i])**2 + C[i]*(t[j]-x[i]) + D[i]
 
-		testYfile.write(str(f[j]) + ' ')
 	return f
 
 # Open data files
@@ -113,6 +112,9 @@ max_xz =  max( np.max(x), np.max(z) )
 xnew = np.linspace(min_xz , max_xz, 50 )
 ynew = Spline(xnew, len(xnew), x, A, B, C, D)
 
+#Saving test.ans
+for j in range(0, len(f)):
+	testYfile.write(str(f[j]) + ' ')
 
 # Close the files
 xFile.close()
