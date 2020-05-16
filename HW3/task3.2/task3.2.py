@@ -47,6 +47,10 @@ max_xz =  max( np.max(x), np.max(z) )
 xnew = np.linspace(min_xz , max_xz, 50 )
 ynew = [lagranz(x,y,i) for i in xnew]
 
+#Saving test.ans
+for j in range(0, len(f)):
+	testYfile.write(str(f[j]) + ' ')
+
 # Closing files
 xFile.close()
 yFile.close()
