@@ -94,6 +94,10 @@ for count in range(1,arr_size+1):
 	print('\n||x - xx|| = ', max(np.absolute(x-xx)) )
 	print ('SAME? ANSWER:', np.allclose(x,xx), '\n\n\n\n\n\n\n\n\n\n\n\n')
 
-plt.plot(my_time)
-plt.plot(np_time)
-plt.show()
+plt.title('tridiagonal algorithm results')
+plt.plot (A_size, np_time , label = 'Numpy')
+plt.plot (A_size, my_time , label = 'Tridiagonal method')
+plt.legend()
+plt.ylabel('Seconds')
+plt.xlabel('Matrix size')
+plt.show ()
