@@ -71,6 +71,7 @@ for count in range(1,size+1):
 plt.title('Cholesky results')
 plt.plot (A_size, np_time , label = 'Numpy')
 plt.plot (A_size, my_time , label = 'Cholesky')
+plt.legend()
 plt.ylabel('Seconds')
 plt.xlabel('Matrix size')
 plt.show ()
