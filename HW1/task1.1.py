@@ -2,6 +2,7 @@ import numpy as np
 import time
 import matplotlib.pyplot as plt
 
+A_size = [100,200,300,400,500,600]
 np_time = [0 , 0 , 0 , 0 , 0 , 0]
 my_time = [0 , 0 , 0 , 0 , 0 , 0]
 
@@ -61,6 +62,8 @@ for tm in range (1,6+1):
 	print('Same solutions: ', np.allclose(x,xx))
 	print('######################################################')
 
-plt.plot ( np_time )
-plt.plot ( my_time )
+plt.plot (A_size, np_time , label = 'Numpy')
+plt.plot (A_size, my_time , label = 'Gauss')
+plt.ylabel('Seconds')
+plt.xlabel('Matrix size')
 plt.show ()
