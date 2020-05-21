@@ -5,6 +5,8 @@ import matplotlib . pyplot as plt
 
 size = 3
 start_time = time.time()
+
+A_size = np.linspace(100,100*size, num = size)
 my_time = [0]*size
 np_time = [0]*size
 
@@ -66,6 +68,9 @@ for count in range(1,size+1):
 	B = S.dot(np.transpose( S ))#numpy solution
 	print ('SAME? ANSWER:', np.allclose(A,B), '\n')
 
-plt.plot(my_time)
-plt.plot(np_time)
-plt.show()
+plt.title('Cholesky results')
+plt.plot (A_size, np_time , label = 'Numpy')
+plt.plot (A_size, my_time , label = 'Cholesky')
+plt.ylabel('Seconds')
+plt.xlabel('Matrix size')
+plt.show ()
