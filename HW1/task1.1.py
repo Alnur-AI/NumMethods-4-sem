@@ -63,6 +63,7 @@ for tm in range (1,6+1):
 plt.title('Gauss results')
 plt.plot (A_size, np_time , label = 'Numpy')
 plt.plot (A_size, my_time , label = 'Gauss')
+plt.legend()
 plt.ylabel('Seconds')
 plt.xlabel('Matrix size')
 plt.show ()
