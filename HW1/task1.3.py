@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 #//////ARRAY SIZES/////////#
 arr_size = 34
+A_size = np.linspace(100,100*arr_size, num = arr_size)
 my_time = [0]*arr_size
 np_time = [0]*arr_size
 
