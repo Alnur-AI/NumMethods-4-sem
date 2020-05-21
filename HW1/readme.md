@@ -1,11 +1,11 @@
 # HOMEWORK 2: Solving Linear System of Equations by Gauss, Cholesky, Tridiagonal matrix algorithm methods 
 
-Foobar is a Python library for dealing with word pluralization.
-
 ## Description
 
 task1.1.py - Solving system of linear equation by Gauss method
+
 task1.2.py - Solving system of linear equation by Cholesky method
+
 task1.3.py - Solving system of linear equation by Tridiagonal matrix algorithm
 
 ## Usage
