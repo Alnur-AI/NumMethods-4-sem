@@ -8,6 +8,8 @@ task2.1.py - Jacoby linear equation solution
 
 task2.2.py - Zeidel linear equation solution
 
+task2.0.py - Both methods equation solution
+
 ## Usage
 
 Use this commands to solve equations
