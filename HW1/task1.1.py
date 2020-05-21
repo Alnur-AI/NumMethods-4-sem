@@ -21,9 +21,7 @@ for tm in range (1,6+1):
 
 
 	#//////Solution from NUMPY//////#
-	AA = A
-	ff = f
-	xx = np.linalg.solve(AA, ff)
+	xx = np.linalg.solve(A, f)
 	#///////////////////////////////#
 
 
