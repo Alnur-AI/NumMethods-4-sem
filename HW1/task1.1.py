@@ -2,7 +2,7 @@ import numpy as np
 import time
 import matplotlib.pyplot as plt
 
-A_size = [100,200,300,400,500,600]
+A_size = np.linspace(100,600, num = 6)
 np_time = [0 , 0 , 0 , 0 , 0 , 0]
 my_time = [0 , 0 , 0 , 0 , 0 , 0]
 
