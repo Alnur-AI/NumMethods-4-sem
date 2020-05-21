@@ -1,4 +1,4 @@
-# HOMEWORK 2: Solving Linear System of Equations by Gauss, Cholesky, Tridiagonal matrix algorithm methods 
+# HOMEWORK 1: Solving Linear System of Equations by Gauss, Cholesky, Tridiagonal matrix algorithm methods 
 
 ## Description
 
@@ -18,6 +18,4 @@ python3 task1.2.py
 python3 task1.3.py
 ```
 ## Results
-![Result](./results.png "Описание будет тут")
-
-
+![Result](./results.png "Results")
