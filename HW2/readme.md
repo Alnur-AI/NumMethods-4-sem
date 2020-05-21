@@ -17,5 +17,4 @@ python3 task2.1.py
 python3 task2.2.py
 ```
 ## Results
-![GitHub Logo](/1.jpg)
-Format: ![Alt Text](url)
+![alt text](HW2/1.png "Описание будет тут")
