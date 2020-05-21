@@ -15,6 +15,7 @@ task2.0.py - Both methods equation solution
 Use this commands to solve equations
 
 ```bash
+python3 task2.0.py
 python3 task2.1.py
 python3 task2.2.py
 ```
