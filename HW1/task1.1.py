@@ -60,6 +60,7 @@ for tm in range (1,6+1):
 	print('Same solutions: ', np.allclose(x,xx))
 	print('######################################################')
 
+plt.title('Gauss results')
 plt.plot (A_size, np_time , label = 'Numpy')
 plt.plot (A_size, my_time , label = 'Gauss')
 plt.ylabel('Seconds')
