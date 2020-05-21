@@ -18,9 +18,8 @@ python3 task1.2.py
 python3 task1.3.py
 ```
 ## Results
-Results for Gauss
 ![Result](./results1.png "Results")
 
-![Result](./results1.png "Results")
+![Result](./results2.png "Results")
 
-![Result](./results1.png "Results")
+![Result](./results3.png "Results")
