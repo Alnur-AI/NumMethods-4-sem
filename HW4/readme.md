@@ -6,7 +6,7 @@ This program solves the problem of the Convection diffusion equation.
 
 PLEASE, BE PATIENT! PROGRAM NEED ONE MINUTE TO CREATE A GIF!
 
-task4.1 - This program solves the problem of the Convection diffusion equation.
+task4.1.py - This program solves the problem of the Convection diffusion equation.
 
 ## Usage
 
