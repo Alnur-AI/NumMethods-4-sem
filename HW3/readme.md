@@ -17,5 +17,3 @@ python3 task3.1.py
 python3 task3.2.py
 python3 task3.3.py
 ```
-## Results
-![Result](./results.png "Results")
