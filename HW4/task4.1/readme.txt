@@ -1,5 +1,17 @@
-This program solves the problem of the Convection вЂ“ diffusion equation.
+# HOMEWORK 4: Convection diffusion and Heat equation
 
-PLEASE, BE PATIENT! IMAGES ARE REQUIRED FROM 30 SECONDS TO MINUTES TO CREATE A GIF
+This program solves the problem of the Convection diffusion equation.
 
-Run command: python3 task4.1.py
+## Description
+
+task4.1.py - This program solves the problem of the convection diffusion equation.
+
+## Usage
+
+PLEASE, BE PATIENT! PROGRAM NEED ONE MINUTE TO CREATE A GIF!
+
+Use this commands to solve equation
+
+```bash
+python3 task4.1.py
+```
