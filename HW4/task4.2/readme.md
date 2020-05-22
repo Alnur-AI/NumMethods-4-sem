@@ -1,6 +1,6 @@
 # HOMEWORK 4: Convection diffusion and Heat equation
 
-This program solves the problem of the heat equation.
+This program solves problem of the heat equation.
 
 ## Description
 
