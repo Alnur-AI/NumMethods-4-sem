@@ -45,7 +45,7 @@ for k in range ( m ):
 def animate ( k ):
 	plt.clf ()
 	plt.ylim (0 , 1.25)
-	plt.title ( "time = " + str ( tau * k ) + " seconds")
+	plt.title ( "Time = " + "{:.2f}".format(tau * k) + " seconds")
 	plt.plot (x , y [ k ], label = 'Numerical')
 	plt.plot (x , u [ k ], label = 'Analitical')
 	plt.legend ()
