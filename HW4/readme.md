@@ -1,21 +1,17 @@
-# HOMEWORK 3: Linear, Lagrange, spline interpolations
+# HOMEWORK 4: Linear, Lagrange, spline interpolations
+
+This program solves the problem of the Convection diffusion equation.
 
 ## Description
 
-task3.1 - This program performs linear interpolation on an uneven grid
+PLEASE, BE PATIENT! IMAGES ARE REQUIRED FROM 30 SECONDS TO MINUTES TO CREATE A GIF
 
-task3.2 - This program performs Lagrange interpolation on an uneven grid
-
-task3.3 - This program performs spline interpolation on a uniform grid
+task4.1 - This program solves the problem of the Convection diffusion equation.
 
 ## Usage
 
-Open folder with interpolation that's you need and use this commands to solve equations
+Open folder that's you need and use this commands to solve equation
 
 ```bash
-python3 task3.1.py
-python3 task3.2.py
-python3 task3.3.py
+python3 task4.1.py
 ```
-## Results
-![Result](./results.png "Results")
