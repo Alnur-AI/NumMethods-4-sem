@@ -2,7 +2,8 @@
 
 ## Description
 
-task3.2 - This program performs Lagrange interpolation on an uneven grid
+task3.2.py - This program performs Lagrange interpolation on an uneven grid
+
 
 
 test.ans - output data on the Y axis (formed by the Lagrange interpolation formula)
