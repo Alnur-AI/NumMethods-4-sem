@@ -15,3 +15,5 @@ Use this commands to solve equation
 ```bash
 python3 task4.1.py
 ```
+## Results
+![Result](./myAnimation.gif "Results")
