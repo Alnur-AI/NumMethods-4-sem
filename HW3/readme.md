@@ -10,7 +10,7 @@ task3.3 - This program performs spline interpolation on a uniform grid
 
 ## Usage
 
-Open folder with interpolation that's you need and use this commands to solve equations
+Open folder with interpolation that's you need and use this commands to make interpolations
 
 ```bash
 python3 task3.1.py
