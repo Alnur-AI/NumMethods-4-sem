@@ -1,4 +1,4 @@
-# HOMEWORK 4: Linear, Lagrange, spline interpolations
+# HOMEWORK 4: Convection diffusion and Heat equation
 
 This program solves the problem of the Convection diffusion equation.
 
