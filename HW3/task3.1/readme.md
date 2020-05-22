@@ -14,7 +14,7 @@ train.dat - input data on the X axis (we build linear interpolation from them)
 
 ## Usage
 
-Open folder with interpolation that's you need and use this commands to solve equations
+Use this command to execute program
 
 ```bash
 python3 task3.1.py
