@@ -1,4 +1,4 @@
-# HOMEWORK 3: Linear, Lagrange, spline interpolations
+# HOMEWORK 3: Lagrange interpolations
 
 ## Description
 
