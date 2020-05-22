@@ -2,7 +2,7 @@
 
 ## Description
 
-task3.3 - This program performs spline interpolation on a uniform grid
+task3.3.py - This program performs spline interpolation on a uniform grid
 
 
 test.ans - output data on the Y axis (formed by the formula of spline interpolation)
