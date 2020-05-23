@@ -3,7 +3,11 @@
 ## Homework 1: Analitical solutions of linear systems of equations
 
 ## Homework 2: Numerical solutions of linear systems of equations
+task2.1.py - Jacoby linear equation solution
 
+task2.2.py - Zeidel linear equation solution
+
+task2.0.py - Both methods equation solution
 ## Homework 3: Interpolations
 task3.1 - This program performs linear interpolation on an uneven grid
 
