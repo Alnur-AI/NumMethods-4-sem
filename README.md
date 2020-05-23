@@ -11,3 +11,6 @@ task3.2 - This program performs Lagrange interpolation on an uneven grid
 
 task3.3 - This program performs spline interpolation on a uniform grid
 ## Homework 4: Differential equations numerical solutions
+task4.1.py - This program solves the problem of the convection diffusion equation.
+
+task4.2.py - This program solves the problem of the heat equation.
