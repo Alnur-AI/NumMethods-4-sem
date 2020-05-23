@@ -6,6 +6,8 @@ task1.1.py - Solving system of linear equation by Gauss method
 task1.2.py - Solving system of linear equation by Cholesky method
 
 task1.3.py - Solving system of linear equation by Tridiagonal matrix algorithm
+
+![Result](./overall_1.png "Results")
 ## Homework 2: Numerical solutions of linear systems of equations
 task2.1.py - Jacoby linear equation solution
 
