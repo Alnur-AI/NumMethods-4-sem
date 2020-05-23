@@ -14,6 +14,8 @@ task2.1.py - Jacoby linear equation solution
 task2.2.py - Zeidel linear equation solution
 
 task2.0.py - Both methods equation solution
+
+![Result](./overall_2.png "Results")
 ## Homework 3: Interpolations
 task3.1.py - This program performs linear interpolation on an uneven grid
 
