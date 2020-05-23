@@ -2,11 +2,11 @@
 
 ## Description
 
-task3.1.py - This program performs linear interpolation on an uneven grid
+task3.1 - This program performs linear interpolation on an uneven grid
 
-task3.2.py - This program performs Lagrange interpolation on an uneven grid
+task3.2 - This program performs Lagrange interpolation on an uneven grid
 
-task3.3.py - This program performs spline interpolation on a uniform grid
+task3.3 - This program performs spline interpolation on a uniform grid
 
 ## Usage
 
