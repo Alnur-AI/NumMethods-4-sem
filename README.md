@@ -13,11 +13,11 @@ task2.2.py - Zeidel linear equation solution
 
 task2.0.py - Both methods equation solution
 ## Homework 3: Interpolations
-task3.1 - This program performs linear interpolation on an uneven grid
+task3.1.py - This program performs linear interpolation on an uneven grid
 
-task3.2 - This program performs Lagrange interpolation on an uneven grid
+task3.2.py - This program performs Lagrange interpolation on an uneven grid
 
-task3.3 - This program performs spline interpolation on a uniform grid
+task3.3.py - This program performs spline interpolation on a uniform grid
 ## Homework 4: Differential equations numerical solutions
 task4.1.py - This program solves the problem of the convection diffusion equation.
 
