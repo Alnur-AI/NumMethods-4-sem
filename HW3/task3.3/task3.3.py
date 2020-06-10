@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 
 # Tridiagonal matrix algorithm
 def sweep (n, a, b, c, f):
-    alpha = (n + 1) * [0]
-    beta = (n + 1) * [0]
-    x = n * [0]
+    alpha = np.zeros(n + 1)
+    beta = np.zeros(n + 1)
+    x = np.zeros(n)
     a[0] = 0
     c[n -  1] = 0
     alpha[0] = 0
@@ -44,10 +44,10 @@ def generateSpline (x , y):
 	s = sweep(n + 1, a , b , c , f)
 	print('s = ', s)
 	
-	B = [0] * (n + 1)   
-	A = [0] * (n + 1)
-	C = [0] * (n + 1)
-	D = [0] * (n + 1)
+	B = np.zeros(n + 1)  
+	A = np.zeros(n + 1)
+	C = np.zeros(n + 1)
+	D = np.zeros(n + 1)
 
 	for i in range (n):
 		B [ i ] = s [ i ]
