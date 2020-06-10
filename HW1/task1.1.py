@@ -3,8 +3,8 @@ import time
 import matplotlib.pyplot as plt
 
 A_size = np.linspace(100,600, num = 6)
-np_time = [0 , 0 , 0 , 0 , 0 , 0]
-my_time = [0 , 0 , 0 , 0 , 0 , 0]
+np_time = np.zeros(6)
+my_time = np.zeros(6)
 
 for tm in range (1,6+1):
 
@@ -15,7 +15,7 @@ for tm in range (1,6+1):
 	n = tm * 100
 	A = np.random.rand(n, n)
 	f = np.random.rand(n)
-	x = [0] * n
+	x = np.zeros(n)
 	#/////////////////////////////#
 
 
