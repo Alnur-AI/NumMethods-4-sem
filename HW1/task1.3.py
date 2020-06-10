@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 #//////ARRAY SIZES/////////#
 arr_size = 34
 A_size = np.linspace(100,100*arr_size, num = arr_size)
-my_time = [0]*arr_size
-np_time = [0]*arr_size
+my_time = np.zeros(arr_size)
+np_time = np.zeros(arr_size)
 
 
 
@@ -26,16 +26,16 @@ def input_data(n):
 				break
 			A[a][b] = random.random()
 		f = np.random.rand(n)
-	x = [0] * n
+	x = np.zeros(n)
 	print('Done!')
 	return A,f,x,n
 
 #//////matrix for solve_banded////////////#
 def s_banded_matr(A,n):
 	print('Creating bca for solve_banded...')
-	a = [0] * n
-	b = [0] * n
-	c = [0] * n
+	a = np.zeros(n)#upper
+	b = np.zeros(n)#lower
+	c = np.zeros(n)#diagonal
 	for i in range(0,n):
 		for j in range(i-1,i+2):
 			if (j == i - 1 and j != -1):
