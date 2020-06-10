@@ -1,31 +1,34 @@
 import numpy as np
 import math
 import time
-import matplotlib . pyplot as plt
+import matplotlib.pyplot as plt
 
 size = 3
 start_time = time.time()
 
 A_size = np.linspace(100,100*size, num = size)
-my_time = [0]*size
-np_time = [0]*size
+my_time = np.zeros(size)
+np_time = np.zeros(size)
 
 for count in range(1,size+1):
 
 
-	print('MATRIX SIZE: ', count*100)
+	print('MATRIX SIZE: ', count * 100)
 
 	#////////Input data//////////#
-	n = 100*count
+	n = 100 * count
+	
 	L = np.tril(np.random.rand(n, n))
 	for i in range(0,n):
-		L[i][i] = 456
+		L[i][i] = 42 #any positive number
+	
 	A = L.dot(np.transpose( L ))
 	f = np.random.rand(n)
-	x = [0] * n
+	x = np.zeros(n)
 	#////////////////////////////#
 
-
+	#Make lower triangular L to create A = LL^T
+	L = np.zeros ((n , n))
 
 	#START TIME
 	start_time = time.time()	
@@ -35,8 +38,6 @@ for count in range(1,size+1):
 	np_time[count - 1] = time.time() - start_time
 	print('NUMPY TIME: ', np_time[count - 1])
 
-	#Make lower triangular L to create A = LL^T
-	L = np.tril(np.random.rand(n, n))
 
 
 
